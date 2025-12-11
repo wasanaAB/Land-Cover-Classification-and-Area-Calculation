@@ -15,9 +15,9 @@ def update_map():
     elif selected_option == "Provinces Classification":
         map_file = "sri_lanka_district_classified_map.html"
     elif selected_option == "Land Area Analysis":
-        map_file = "http://127.0.0.1:8050"  # Dash app
+        map_file = "http://127.0.0.1:8050"  
     else:
-        map_file = "sri_lanka_map.html"  # fallback/default
+        map_file = "sri_lanka_map.html"
 
     return render_template('index.html', selected_map=map_file)
 
